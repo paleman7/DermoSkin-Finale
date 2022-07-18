@@ -1,0 +1,96 @@
+.box {
+    background-color:lightblue;
+    padding: 40px;
+    margin: 50px;
+
+}
+
+header {
+    color:gray ;
+    padding: 50px;
+    color: white;
+    background-color: black;
+    
+}
+header .ASDDD {
+    padding: 20px;
+}
+header nav ul li {
+    list-style: none;
+
+}
+header nav ul li a {
+    text-decoration:none ;
+    color: gray;
+    padding: 5px;
+    margin: 5px 10PX;
+    display: inline-block;
+}
+header nav ul li a:hover {
+    color: tomato;
+    background: rgb(134, 88, 5);
+
+}
+
+
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 50px;
+    margin: 50px;
+    
+}
+ h1  {
+    color: black;
+}
+
+body {
+    background-color:lightgoldenrodyellow;
+}
+
+.color {
+    color:blue
+}
+#color  {
+    color: green;
+
+}
+h2 {
+    color: rgb(200, 129, 21);
+}
+footer {
+    color: brown;
+    font-size: small;
+    margin-top: 10px;
+    
+        
+}
+
+
+@media (max-width: 899px) {
+    .menu input + ul {
+        display: none;
+    }
+    .menu input:checked + ul {
+        background-color:rgb(114, 5, 114);
+        display: block;
+    }
+    
+}
+
+@media (min-width: 900px) {
+    header  {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header nav ul {
+        display: flex;
+        
+    }
+    .menu input {
+        display: none;
+    }
+}
